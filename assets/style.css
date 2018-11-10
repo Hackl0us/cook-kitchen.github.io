@@ -115,3 +115,27 @@ footer p {
 .works{
   font-size: 14px;
 }
+
+/* article style */
+.section{
+  text-align: left;
+  padding: 1.8rem;
+  border-top: #ccc solid 1px;
+}
+.section:first-child{
+  border-top: none;
+}
+.section a{
+  color: #111;
+}
+
+.section__content__title{
+  font-size: 30px;
+  margin: 0;
+  font-weight: 600;
+}
+.section__content__time{
+  margin: 0;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}
