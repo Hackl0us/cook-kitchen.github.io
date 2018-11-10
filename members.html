@@ -6,138 +6,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Members</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <!-- <link rel="stylesheet" href="assets/style.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav class="navbar">
+    <!-- <nav class="navbar">
         <a href="../index.html">Apple User Group</a>
         <div class="navbar-nav">
             <li><a href="members.html">Members</a></li>
             <li><a href="#">Article</a></li>
             <li><a href="#">Activities</a></li>
         </div>
-    </nav>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="../index.html">Apple User Group</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Members <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Article</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Activities</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <section class="container">
-        <h2>Manager</h2>
-        <div class="support">
-            <div class="support__item">
-                <div class="support__item__avatar">
-                    <img src="assets/img/hackl0us.jpg" width="60px" height="60px">
+        <h2 class="text-center mt-4 mb-2">Manager</h2>
+        <div class="support row mt-4">
+            <div class="support__item col">
+                <div class="support__item__avatar text-center">
+                    <img src="assets/img/hackl0us.jpg" class="rounded-circle" width="100px" height="100px">
                 </div>
-                <p class="nickname">Hackl0us</p>
-                <p class="position">President</p>
+                <h4 class="nickname text-center font-weight-bold mt-2 mb-1 text-primary">Hackl0us</h4>
+                <p class="position text-center">President</p>
             </div>
 
-            <div class="support__item">
-                <div class="support__item__avatar">
-                    <img src="assets/img/bearkevin.jpg" width="60px" height="60px">
+            <div class="support__item col">
+                <div class="support__item__avatar text-center">
+                    <img src="assets/img/bearkevin.jpg" class="rounded-circle" width="100px" height="100px">
                 </div>
-                <p class="nickname">Kevin Wang</p>
-                <p class="position">Ambassador</p>
+                <h4 class="nickname text-center font-weight-bold mt-2 mb-1 text-primary">Kevin Wang</h4>
+                <p class="position text-center">Ambassador</p>
             </div>
 
-            <div class="support__item">
-                <div class="support__item__avatar">
-                    <img src="assets/img/kingsun.jpg" width="60px" height="60px">
+            <div class="support__item col">
+                <div class="support__item__avatar text-center">
+                    <img src="assets/img/kingsun.jpg" class="rounded-circle" width="100px" height="100px">
                 </div>
-                <p class="nickname">Kingsun</p>
-                <p class="position">Admin</p>
+                <h4 class="nickname text-center font-weight-bold mt-2 mb-1 text-primary">Kingsun</h4>
+                <p class="position text-center">Admin</p>
+            </div>
+            <div class="support__item col">
+                <div class="support__item__avatar text-center">
+                    <img src="assets/img/chrisyu.jpg" class="rounded-circle" width="100px" height="100px">
+                </div>
+                <h4 class="nickname text-center font-weight-bold mt-2 mb-1 text-primary">Chris Yu</h4>
+                <p class="position text-center">Admin</p>
             </div>
 
-            <div class="support__item">
-                <div class="support__item__avatar">
-                    <img src="assets/img/chrisyu.jpg" width="60px" height="60px">
+            <div class="support__item col">
+                <div class="support__item__avatar text-center">
+                    <img src="assets/img/cnblacklistr.jpg" class="rounded-circle" width="100px" height="100px">
                 </div>
-                <p class="nickname">Chris Yu</p>
-                <p class="position">Admin</p>
-            </div>
-
-            <div class="support__item">
-                <div class="support__item__avatar">
-                    <img src="assets/img/cnblacklistr.jpg" width="60px" height="60px">
-                </div>
-                <p class="nickname">CNBlackListR</p>
-                <p class="position">Admin(Robot)</p>
+                <h4 class="nickname text-center font-weight-bold mt-2 mb-1 text-primary">CNBlackListR</h4>
+                <p class="position text-center">Admin(Robot)</p>
             </div>
         </div>
-        <h2> Core Members </h2>
-        <div class="support">
+        <h2 class="text-center mt-4 mb-2"> Core Members </h2>
+        <div class="support row mt-4">
 
 
-            <div class="support__item">
+            <div class="support__item col-3">
                 <div class="support__item__avatar">
-                    <img src="assets/img/itumbledsea.jpg" width="60px" height="60px">
+                    <img src="assets/img/itumbledsea.jpg" class="rounded-circle" width="100px" height="100px">
                 </div>
                 <p class="nickname">iTumbledSea</p>
                 <p class="position">ACTC / Author</p>
                 <p class="works">Let's Talk iOS 9, Let's Talk iPhone</p>
             </div>
 
-            <div class="support__item">
+            <div class="support__item col-3">
                 <div class="support__item__avatar">
-                    <img src="assets/img/benhuang.jpg" width="60px" height="60px">
+                    <img src="assets/img/benhuang.jpg" class="rounded-circle" width="100px" height="100px">
                 </div>
                 <p class="nickname">Ben Huang</p>
                 <p class="position">Former Apple Genius</p>
                 <p class="works">Apple Retail Store</p>
             </div>
 
-            <div class="support__item">
+            <div class="support__item col-3">
                 <div class="support__item__avatar">
-                    <img src="assets/img/hackl0us.jpg" width="60px" height="60px">
+                    <img src="assets/img/hackl0us.jpg" class="rounded-circle" width="100px" height="100px">
                 </div>
                 <p class="nickname">Hackl0us</p>
                 <p class="position">Developer</p>
                 <p class="works">Econom1ze / SS-Rule-Snippet / SS-Rule-Generator</p>
             </div>
 
-            <div class="support__item">
+            <div class="support__item col-3">
                 <div class="support__item__avatar">
-                    <img src="assets/img/yicheng.jpg" width="60px" height="60px">
+                    <img src="assets/img/yicheng.jpg" class="rounded-circle" width="100px" height="100px">
                 </div>
                 <p class="nickname">YiCheng</p>
                 <p class="position">Apple Devloper</p>
                 <p class="works">ClashX</p>
             </div>
 
-            <div class="support__item">
+            <div class="support__item col">
                 <div class="support__item__avatar">
-                    <img src="assets/img/o1xhack.jpg" width="60px" height="60px">
+                    <img src="assets/img/o1xhack.jpg" class="rounded-circle" width="100px" height="100px">
                 </div>
                 <p class="nickname">o1xhack</p>
                 <p class="position">Apple Devloper</p>
                 <p class="works">Coffee time</p>
             </div>
 
-            <div class="support__item">
+            <div class="support__item col">
                 <div class="support__item__avatar">
-                    <img src="assets/img/sunbelife.jpg" width="60px" height="60px">
+                    <img src="assets/img/sunbelife.jpg" class="rounded-circle" width="100px" height="100px">
                 </div>
                 <p class="nickname">Sun Belife</p>
                 <p class="position">Developer</p>
                 <p class="works">iBeta 尝鲜派</p>
             </div>
 
-            <div class="support__item">
+            <div class="support__item col">
                 <div class="support__item__avatar">
-                    <img src="assets/img/tommysun.jpg" width="60px" height="60px">
+                    <img src="assets/img/tommysun.jpg" class="rounded-circle" width="100px" height="100px">
                 </div>
                 <p class="nickname">Tommy Sun</p>
                 <p class="position">Blogger</p>
                 <p class="works">@应用派小队</p>
             </div>
-            <div class="support__item">
+            <div class="support__item col">
                 <div class="support__item__avatar">
-                    <img src="assets/img/lhie1.jpg" width="60px" height="60px">
+                    <img src="assets/img/lhie1.jpg" class="rounded-circle" width="100px" height="100px">
                 </div>
                 <p class="nickname">lhie1</p>
                 <p class="position">Maintainer</p>
                 <p class="works">Surge Rule</p>
             </div>
-            <div class="support__item">
+            <div class="support__item col">
                 <div class="support__item__avatar">
-                    <img src="assets/img/u+7a7a.jpg" width="60px" height="60px">
+                    <img src="assets/img/u+7a7a.jpg" class="rounded-circle" width="100px" height="100px">
                 </div>
                 <p class="nickname">🈳️ U+7A7A 🔰</p>
                 <p class="position">Maintainer</p>
