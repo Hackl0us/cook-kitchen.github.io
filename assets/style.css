@@ -18,8 +18,14 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 12px 12px;
+  flex-wrap: wrap;
+  line-height: 2rem;
 }
 
+.navbar .brand{
+  font-weight: 500;
+  color: #fff;
+}
 .navbar-nav {
   display: flex;
 }
@@ -38,6 +44,12 @@ a {
   color: #fff;
 }
 
+@media (max-width:680px){
+  .navbar{
+    display: flex;
+    justify-content: center;
+  }
+}
 .bg{
   background:url("img/papaioannou.jpg") no-repeat;
   background-size: cover;
