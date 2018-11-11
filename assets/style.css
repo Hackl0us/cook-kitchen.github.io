@@ -32,7 +32,7 @@ a {
 .navbar a {
   color: #999;
   text-decoration: none;
-  margin-left: 2rem;
+  margin:0 2rem;
 }
 .navbar .active, .navbar a:hover {
   color: #fff;
@@ -90,7 +90,7 @@ a {
 }
 
 footer {
-  margin: 1rem 1rem 0 1rem;
+  margin: 1rem 3rem 0 3rem;
   font-size: 12px;
   border-top: 1px solid #D8D8D8;
   padding: .7rem 2rem;
