@@ -12,6 +12,28 @@ a {
   text-decoration: none;
 }
 
+.container {
+  color: #333;
+  padding: 24px;
+  max-width: 680px;
+  width: 680px;
+  margin: 0 auto;
+}
+
+footer {
+  margin: 1rem 3rem 0 3rem;
+  font-size: 12px;
+  border-top: 1px solid #D8D8D8;
+  padding: .7rem 2rem;
+  color: #D8D8D8;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* navbar */
+
 .navbar {
   background: rgba(0, 0, 0, 0.8);
   font-size: 17px;
@@ -24,10 +46,11 @@ a {
   overflow: hidden;
 }
 
-.navbar .brand{
+.navbar .brand {
   font-weight: 500;
   color: #fff;
 }
+
 .navbar-nav {
   display: flex;
   height: 4rem;
@@ -43,40 +66,39 @@ a {
 .navbar a {
   color: #999;
   text-decoration: none;
-  margin:0 2rem;
+  margin: 0 2rem;
 }
+
 .navbar .active, .navbar a:hover {
   color: #fff;
 }
 
-@media (max-width:680px){
-  .navbar{
+@media (max-width:680px) {
+  .navbar {
     display: flex;
     justify-content: center;
     height: 4rem;
   }
-
 }
-.bg{
-  background:url("img/papaioannou.jpg") no-repeat;
+
+/* index page */
+
+.bg {
+  background: url("img/papaioannou.jpg") no-repeat;
   background-size: cover;
   min-height: 100vh;
 }
-.container {
-  color: #333;
-  padding: 24px;
-  max-width: 680px;
-  width: 680px;
-  margin: 0 auto;
-}
+
 .join {
   color: #fff;
 }
-.join h3{
+
+.join h3 {
   font-size: 2rem;
-  margin: 3rem 0; 
+  margin: 3rem 0;
   line-height: 2.5rem;
 }
+
 .join p {
   line-height: 24px;
   font-weight: 500;
@@ -108,17 +130,9 @@ a {
   }
 }
 
-footer {
-  margin: 1rem 3rem 0 3rem;
-  font-size: 12px;
-  border-top: 1px solid #D8D8D8;
-  padding: .7rem 2rem;
-  color: #D8D8D8;
-}
 
-footer p {
-  margin: 0;
-}
+
+/* member page */
 
 .support {
   display: flex;
