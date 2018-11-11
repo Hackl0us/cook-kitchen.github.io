@@ -20,6 +20,8 @@ a {
   padding: 12px 12px;
   flex-wrap: wrap;
   line-height: 2rem;
+  height: 2rem;
+  overflow: hidden;
 }
 
 .navbar .brand{
@@ -28,6 +30,9 @@ a {
 }
 .navbar-nav {
   display: flex;
+  height: 4rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .navbar-nav li {
@@ -48,7 +53,9 @@ a {
   .navbar{
     display: flex;
     justify-content: center;
+    height: 4rem;
   }
+
 }
 .bg{
   background:url("img/papaioannou.jpg") no-repeat;
