@@ -38,18 +38,28 @@ a {
   color: #fff;
 }
 
+.bg{
+  background:url("img/papaioannou.jpg") no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
 .container {
-  text-align: center;
   color: #333;
   padding: 24px;
   max-width: 680px;
   width: 680px;
-  margin: 24px auto;
+  margin: 0 auto;
 }
-
+.join {
+  color: #fff;
+}
+.join h3{
+  font-size: 2rem;
+  margin: 3rem 0; 
+}
 .join p {
-  text-align: left;
   line-height: 24px;
+  font-weight: 500;
 }
 
 .join-btn {
@@ -57,14 +67,15 @@ a {
   margin: 1rem auto;
   padding: 14px 36px 14px 36px;
   font-size: 18px;
-  background: #333;
-  color: #fff;
-  border-radius: 5px;
+  font-weight: 500;
+  background: #fff;
+  color: #111;
+  border-radius: 36px;
   transition: .3s ease;
 }
 
 .join-btn:hover {
-  background: #111;
+  background: #ccc;
 }
 
 @media (max-width:680px) {
@@ -78,12 +89,11 @@ a {
 }
 
 footer {
-  margin: 1rem;
+  margin: 1rem 1rem 0 1rem;
   font-size: 12px;
-  border-top: 1px solid #d6d6d6;
-  padding: 8px;
-  text-align: center;
-  color: #555;
+  border-top: 1px solid #9f9f9f;
+  padding: .7rem 2rem;
+  color: #9f9f9f;
 }
 
 footer p {
