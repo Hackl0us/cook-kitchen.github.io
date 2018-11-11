@@ -30,9 +30,12 @@ a {
 }
 
 .navbar a {
-  color: #fff;
+  color: #999;
   text-decoration: none;
-  margin-left: 12px;
+  margin-left: 2rem;
+}
+.navbar .active, .navbar a:hover {
+  color: #fff;
 }
 
 .container {
@@ -112,29 +115,34 @@ footer p {
 .position {
   color: #999;
 }
-.works{
+
+.works {
   font-size: 14px;
 }
 
 /* article style */
-.section{
+
+.section {
   text-align: left;
   padding: 1.8rem;
   border-top: #ccc solid 1px;
 }
-.section:first-child{
+
+.section:first-child {
   border-top: none;
 }
-.section a{
+
+.section a {
   color: #111;
 }
 
-.section__content__title{
+.section__content__title {
   font-size: 30px;
   margin: 0;
   font-weight: 600;
 }
-.section__content__time{
+
+.section__content__time {
   margin: 0;
   color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
