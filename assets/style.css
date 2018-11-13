@@ -24,9 +24,9 @@ a {
 }
 
 footer {
-  margin: 1rem 3rem 0 3rem;
+  margin: 6rem 3rem 0 3rem;
   font-size: 12px;
-  border-top: 1px solid #d8d8d8;
+  border-top: 0.5px solid #d8d8d8;
   padding: 0.7rem 2rem;
   color: #d8d8d8;
 }
@@ -39,19 +39,19 @@ footer p {
 
 .navbar {
   background: rgba(0, 0, 0, 0.8);
-  font-size: 17px;
+  font-size: 15px;
   display: flex;
   justify-content: space-between;
   padding: 12px 12px;
   flex-wrap: wrap;
-  line-height: 2rem;
-  height: 2rem;
+  line-height: 1.4rem;
+  height: 1.4rem;
   overflow: hidden;
 }
 
 .navbar .brand {
   font-weight: 500;
-  color: #fff;
+  color: #999;
 }
 
 .navbar-nav {
@@ -67,14 +67,15 @@ footer p {
 }
 
 .navbar a {
-  color: #999;
+  color: #fff;
+  font-weight: 350;
   text-decoration: none;
   margin: 0 2rem;
 }
 
 .navbar .active,
 .navbar a:hover {
-  color: #fff;
+  color: #999;
 }
 
 @media (max-width: 680px) {
@@ -98,14 +99,14 @@ footer p {
 }
 
 .join h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 3rem 0;
-  line-height: 2.5rem;
+  line-height: 3rem;
 }
 
 .join p {
   line-height: 24px;
-  font-weight: 500;
+  font-weight: 350;
 }
 
 .join-btn {
