@@ -1,278 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Members</title>
-    <link rel="stylesheet" href="assets/style.css" />
-  </head>
 
-  <body>
-    <div id="app">
-      <nav class="navbar">
-        <a href="index.html">Apple User Group</a>
-        <div class="navbar-nav">
-          <li><a href="#">Activities</a></li>
-          <li><a href="article.html">Article</a></li>
-          <li><a href="members.html">Members</a></li>
-        </div>
-      </nav>
-      <section class="container">
-        <h2>Manager</h2>
-        <div class="support">
-          <div class="support__item">
-            <div class="support__item__avatar">
-              <img src="assets/img/hackl0us.jpg" width="60px" height="60px" />
-              <div class="per__info">
-                <p class="nickname__sus">Hackl0us</p>
-                <p class="position__sus">President</p>
-              </div>
-            </div>
-            <p class="nickname">Hackl0us</p>
-            <p class="position">President</p>
-          </div>
-
-          <div class="support__item">
-            <div class="support__item__avatar">
-              <img src="assets/img/bearkevin.jpg" width="60px" height="60px" />
-              <div class="per__info">
-                <p class="nickname__sus">Kevin Wang</p>
-                <p class="position__sus">Ambassador</p>
-              </div>
-            </div>
-            <p class="nickname">Kevin Wang</p>
-            <p class="position">Ambassador</p>
-          </div>
-
-          <div class="support__item">
-            <div class="support__item__avatar">
-              <img src="assets/img/kingsun.jpg" width="60px" height="60px" />
-              <div class="per__info">
-                <p class="nickname__sus">Kingsun</p>
-                <p class="position__sus">Admin</p>
-              </div>
-            </div>
-            <p class="nickname">Kingsun</p>
-            <p class="position">Admin</p>
-          </div>
-
-          <div class="support__item">
-            <div class="support__item__avatar">
-              <img src="assets/img/chrisyu.jpg" width="60px" height="60px" />
-              <div class="per__info">
-                <p class="nickname__sus">Chris Yu</p>
-                <p class="position__sus">Admin</p>
-              </div>
-            </div>
-            <p class="nickname">Chris Yu</p>
-            <p class="position">Admin</p>
-          </div>
-
-          <div class="support__item">
-            <div class="support__item__avatar">
-              <img
-                src="assets/img/cnblacklistr.jpg"
-                width="60px"
-                height="60px"
-              />
-              <div class="per__info">
-                <p class="nickname__sus">CNBlackListR</p>
-                <p class="position__sus">Admin(Robot)</p>
-              </div>
-            </div>
-            <p class="nickname">CNBlackListR</p>
-            <p class="position">Admin(Robot)</p>
-          </div>
-        </div>
-        <h2>Core Members</h2>
-        <div class="info__wrap">
-          <div
-            class="info__box"
-            v-for="(item,index) in core_list"
-            :keys="index"
-          >
-            <div class="info__item">
-              <div class="info__item__avatar">
-                <img :src="item.avatar" width="60px" height="60px" />
-              </div>
-              <p class="nickname">{{ item.nickname }}</p>
-              <p class="position">{{ item.position }}</p>
-              <p class="works">{{ item.works }}</p>
-            </div>
-          </div>
-
-          <!--
-            <div class="info__box">
-              <div class="info__item">
-                <div class="info__item__avatar">
-                  <img src="assets/img/benhuang.jpg" width="60px" height="60px" />
-                </div>
-                <p class="nickname">Ben Huang</p>
-                <p class="position">Former Apple Genius</p>
-                <p class="works">Apple Retail Store</p>
-              </div>
-            </div>
-
-            <div class="info__box">
-              <div class="info__item">
-                <div class="info__item__avatar">
-                  <img src="assets/img/hackl0us.jpg" width="60px" height="60px" />
-                </div>
-                <p class="nickname">Hackl0us</p>
-                <p class="position">Developer</p>
-                <p class="works">
-                  Econom1ze / SS-Rule-Snippet / SS-Rule-Generator
-                </p>
-              </div>
-            </div>
-
-            <div class="info__box">
-              <div class="info__item">
-                <div class="info__item__avatar">
-                  <img src="assets/img/yicheng.jpg" width="60px" height="60px" />
-                </div>
-                <p class="nickname">YiCheng</p>
-                <p class="position">Apple Devloper</p>
-                <p class="works">ClashX</p>
-              </div>
-            </div>
-
-            <div class="info__box">
-              <div class="info__item">
-                <div class="info__item__avatar">
-                  <img src="assets/img/o1xhack.jpg" width="60px" height="60px" />
-                </div>
-                <p class="nickname">o1xhack</p>
-                <p class="position">Apple Devloper</p>
-                <p class="works">Coffee time</p>
-              </div>
-            </div>
-
-            <div class="info__box">
-              <div class="info__item">
-                <div class="info__item__avatar">
-                  <img
-                    src="assets/img/sunbelife.jpg"
-                    width="60px"
-                    height="60px"
-                  />
-                </div>
-                <p class="nickname">Sun Belife</p>
-                <p class="position">Developer</p>
-                <p class="works">iBeta 尝鲜派</p>
-              </div>
-            </div>
-
-            <div class="info__box">
-              <div class="info__item">
-                <div class="info__item__avatar">
-                  <img src="assets/img/tommysun.jpg" width="60px" height="60px" />
-                </div>
-                <p class="nickname">Tommy Sun</p>
-                <p class="position">Blogger</p>
-                <p class="works">@应用派小队</p>
-              </div>
-            </div>
-            <div class="info__box">
-              <div class="info__item">
-                <div class="info__item__avatar">
-                  <img src="assets/img/lhie1.jpg" width="60px" height="60px" />
-                </div>
-                <p class="nickname">lhie1</p>
-                <p class="position">Maintainer</p>
-                <p class="works">Surge Rule</p>
-              </div>
-            </div>
-            <div class="info__box">
-              <div class="info__item">
-                <div class="info__item__avatar">
-                  <img src="assets/img/u+7a7a.jpg" width="60px" height="60px" />
-                </div>
-                <p class="nickname">🈳️ U+7A7A 🔰</p>
-                <p class="position">Maintainer</p>
-                <p class="works">@Newbie_Guide / @TelePlanting Channel</p>
-              </div>
-            </div>
-          -->
-          <!-- </div> -->
-        </div>
-        <h2>Sponsorship</h2>
-        <div class="support">
-          <div class="support__item">
-            <img src="assets/img/iqunix.png" width="100%" />
-
-            <p class="nickname">iQunix</p>
-            <p class="works">Apple Aluminum derivative</p>
-          </div>
-        </div>
-      </section>
-    </div>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Members</title>
+  <link rel="stylesheet" href="assets/style.css" />
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"></script>
-  <script>
-    let vm = new Vue({
-      el: "#app",
-      data: {
-        core_list: [
-          {
-            avatar: "assets/img/itumbledsea.jpg",
-            nickname: "iTumbledSea",
-            position: "ACTC / Author",
-            works: "Let's Talk iOS 9, Let's Talk iPhone"
-          },
-          {
-            avatar: "assets/img/benhuang.jpg",
-            nickname: "Ben Huang",
-            position: "Former Apple Genius",
-            works: "Apple Retail Store"
-          },
-          {
-            avatar: "assets/img/hackl0us.jpg",
-            nickname: "Hackl0us",
-            position: "Developer",
-            works: "Econom1ze / SS-Rule-Snippet / SS-Rule-Generator"
-          },
-          {
-            avatar: "assets/img/yicheng.jpg",
-            nickname: "YiCheng",
-            position: "Apple Devloper",
-            works: "ClashX"
-          },
-          {
-            avatar: "assets/img/o1xhack.jpg",
-            nickname: "o1xhack",
-            position: "Apple Devloper",
-            works: "Coffee time"
-          },
-          {
-            avatar: "assets/img/sunbelife.jpg",
-            nickname: "Sun Belife",
-            position: "Devloper",
-            works: "iBeta 尝鲜派"
-          },
-          {
-            avatar: "assets/img/tommysun.jpg",
-            nickname: "Tommy Sun",
-            position: "Blogger",
-            works: "@应用派小队"
-          },
-          {
-            avatar: "assets/img/lhie1.jpg",
-            nickname: "lhie1",
-            position: "Maintainer",
-            works: "Surge Rule"
-          },
-          {
-            avatar: "assets/img/u+7a7a.jpg",
-            nickname: "🈳️ U+7A7A 🔰",
-            position: "Maintainer",
-            works: "@Newbie_Guide / @TelePlanting Channel"
-          }
-        ]
-      },
-      methods: {},
-      mounted() {}
-    });
-  </script>
+</head>
+
+<body>
+  <div id="app">
+
+    <nav class="navbar">
+      <a href="index.html">Apple User Group</a>
+      <div class="navbar-nav">
+        <li><a href="#">Activities</a></li>
+        <li><a href="article.html">Article</a></li>
+        <li><a href="members.html">Members</a></li>
+      </div>
+    </nav>
+
+    <section class="container">
+      <h2>Manager</h2>
+      <div class="support">
+        <div class="support__item" v-for="(item,index) in manager_list" :keys="index">
+          <div class="support__item__avatar">
+            <img :src="item.avatar" width="60px" height="60px" />
+            <div class="per__info">
+              <p class="work__sus">{{ item.works }}</p>
+            </div>
+          </div>
+          <p class="nickname">{{ item.nickname }}</p>
+          <p class="position">{{ item.position }}</p>
+        </div>
+      </div>
+
+      <h2>Core Members</h2>
+      <div class="support">
+        <div class="support__item" v-for="(item,index) in core_list" :keys="index">
+          <div class="support__item__avatar">
+            <img :src="item.avatar" width="60px" height="60px" />
+            <div class="per__info">
+              <p class="work__sus">{{ item.works }}</p>
+            </div>
+          </div>
+          <p class="nickname">{{ item.nickname }}</p>
+          <p class="position">{{ item.position }}</p>
+        </div>
+      </div>
+
+      <h2>Sponsorship</h2>
+      <div class="support">
+        <div class="support__item">
+          <img src="assets/img/iqunix.png" width="100%" />
+          <p class="nickname">iQunix</p>
+          <p class="works">Aluminum Apple derivative</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="assets/js/members.js"></script>
+
+</body>
+
 </html>
