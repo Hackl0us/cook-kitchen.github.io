@@ -171,8 +171,6 @@ footer p {
 
 .support__item__avatar {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .support__item__avatar img {
