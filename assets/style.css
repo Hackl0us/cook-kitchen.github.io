@@ -202,15 +202,15 @@ footer p {
   align-items: center;
   font-weight: bold;
 }
-.support__item .per__info p.nickname__sus {
+.support__item .per__info p.works__sus {
   color: black;
   position: relative;
   top: -5px;
 }
-.support__item .per__info p.position__sus {
+/* .support__item .per__info p.position__sus {
   position: relative;
   bottom: 5px;
-}
+} */
 .info__wrap {
   max-width: 60rem;
   margin: 0 auto;
