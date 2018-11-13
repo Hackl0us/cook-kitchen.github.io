@@ -44,8 +44,8 @@ footer p {
   justify-content: space-between;
   padding: 12px 12px;
   flex-wrap: wrap;
-  line-height: 1.4rem;
-  height: 1.4rem;
+  line-height: 2rem;
+  height: 2rem;
   overflow: hidden;
 }
 
