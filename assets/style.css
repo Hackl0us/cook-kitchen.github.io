@@ -147,6 +147,7 @@ footer p {
   flex-wrap: wrap;
   font-family: San Francisco;
 }
+
 .support::before {
   display: table;
   content: "";
@@ -164,10 +165,12 @@ footer p {
 .support__item p {
   margin: 0.3rem;
 }
+
 .support__item p.nickname {
   color: #4a90e2;
   margin-top: 0.7rem;
 }
+
 .support__item p.position {
   color: black;
 }
@@ -182,6 +185,7 @@ footer p {
   height: 160px;
   box-shadow: 5px 10px 25px -10px rgba(0, 0, 0, 0.5);
 }
+
 .support__item__avatar:hover .per__info {
   opacity: 1;
   transition: all 0.5s;
@@ -203,11 +207,13 @@ footer p {
   align-items: center;
   font-weight: bold;
 }
+
 .support__item .per__info p.work__sus {
   color: black;
   position: relative;
   top: -5px;
 }
+
 /* .support__item .per__info p.position__sus {
   position: relative;
   bottom: 5px;
@@ -236,11 +242,13 @@ footer p {
     opacity 0.3s linear 0.3s, -webkit-transform 0.3s linear 0s,
     -webkit-filter 0.3s linear 0.3s;
 }
+
 .info__wrap:hover .info__box:not(:hover) {
   -webkit-filter: blur(3px);
   filter: blur(3px);
   opacity: 0.5;
 }
+
 .info__item {
   position: relative;
   width: 100%;
@@ -254,6 +262,7 @@ footer p {
   -webkit-transition: box-shadow 0.3s linear, height 0.1s linear 0s;
   transition: box-shadow 0.3s linear, height 0.1s linear 0s;
 }
+
 .info__box:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -267,6 +276,7 @@ footer p {
     opacity 0.1s linear 0s, -webkit-transform 0.3s linear 0.3s,
     -webkit-filter 0.1s linear 0s;
 }
+
 .info__box:hover .info__item {
   height: 15rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
@@ -304,4 +314,32 @@ footer p {
   margin: 0;
   color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
+}
+
+/* activities page */
+
+.activities__header {
+  width: 100%;
+  height: 480px;
+}
+
+.activities__header__bg {
+  background: url(img/papaioannou.jpg) no-repeat;
+  background-size: cover;
+}
+
+.activities__header__content{
+  text-align: center;
+  color: #fff;
+}
+
+.activities__title{
+  font-size: 65px;
+}
+
+.activities__text{
+  font-size: 35px;
+}
+.activities__link{
+  font-size:35px; 
 }
