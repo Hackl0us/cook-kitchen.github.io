@@ -343,3 +343,18 @@ footer p {
 .activities__link{
   font-size:35px; 
 }
+
+.activities__body{
+  display: flex;
+  flex-wrap: wrap;
+}
+.activities__item{
+  padding: 1rem;
+  flex: 0 0 50%;
+  overflow: hidden;
+  word-break: break-all;
+  box-sizing: border-box;
+}
+.activities__item__header img{
+  width: 100%;
+}
