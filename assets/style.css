@@ -334,14 +334,17 @@ footer p {
 }
 
 .activities__title{
-  font-size: 65px;
+  font-size: 4rem;
+  line-height: 4rem;
 }
 
 .activities__text{
-  font-size: 35px;
+  font-size: 2rem;
+  line-height: 2rem;
 }
 .activities__link{
-  font-size:35px; 
+  font-size: 2rem;
+  line-height: 2rem;
 }
 
 .activities__body{
