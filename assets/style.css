@@ -89,7 +89,7 @@ footer p {
 /* index page */
 
 .bg {
-  background: url("img/papaioannou.jpg") no-repeat;
+  background: url("img/bg.jpg") no-repeat;
   background-size: cover;
   min-height: 100vh;
 }
