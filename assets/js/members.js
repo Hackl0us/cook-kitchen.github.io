@@ -35,7 +35,7 @@ let vm = new Vue({
         core_list: [{
                 avatar: "assets/img/avatar/itumbledsea.jpg",
                 nickname: "iTumbledSea",
-                position: "ACTC / Author",
+                position: "Apple Certified Technical Coordinator / Author",
                 works: "Let's Talk iOS 9, Let's Talk iPhone"
             },
             {
